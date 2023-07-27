@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
-const PORT = 3030; 
 const path = require('path');
+const PORT = 3030; 
+
 /*configuraciones*/
 
 app.use(express.static('public'));

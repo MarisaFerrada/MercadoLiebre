@@ -1,0 +1,66 @@
+.home_header{
+    background-color: var(--Amarillo);
+}  
+
+.home_header p{
+    text-align: center;
+}
+
+
+
+.burger-menu{
+
+    background: var(--Azul);
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size:  24px;
+    margin: 25px auto 0 ;
+    
+    
+}
+
+/* main*/
+
+.home_main_titulares{
+    
+    font-size: 24px;
+    text-align: center;
+    color: var(--Grisoscuro);
+
+}
+
+.home_main_producto_precio{
+    font-size: 18px;
+}
+
+.home_main_producto_descuento{
+    font-size: 16px;
+}
+
+.home_main_producto_descripcion{
+    font-size: 16px;
+    color: var(--Grisoscuro) ;
+
+}
+
+.home_cuerposdetexto{
+
+    font-size: 12px;
+    text-align: center;
+    color: var(--Grisoscuro);
+
+}
+
+.home_footer i{
+      width: 100%;
+    text-align: center;
+
+}
+
+.home_footer_cuerpodetexto{
+    color: var(--Grisoscuro);
+}
+
