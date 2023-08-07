@@ -1,3 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+
+}
+ 
 :root{
     --Amarillo: #EAC926;
     --Azul: #03264C;
@@ -8,6 +16,3 @@
 }
 
 
-*{
-    font-family: 'Roboto', sans-serif
-}

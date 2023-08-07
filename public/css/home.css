@@ -1,14 +1,14 @@
-.home_header{
+.home_header {
     background-color: var(--Amarillo);
-}  
 
-.home_header p{
-    text-align: center;
+
 }
 
+header div {}
 
 
-.burger-menu{
+
+.burger-menu {
 
     background: var(--Azul);
     color: antiquewhite;
@@ -16,51 +16,164 @@
     border-radius: 5px;
     width: 40px;
     height: 40px;
-    font-size:  24px;
-    margin: 25px auto 0 ;
-    
-    
+    font-size: 24px;
+    margin: 25px auto 0;
+
+
+
 }
 
 /* main*/
+.home_main {
+    width: 90%;
+}
 
-.home_main_titulares{
-    
+
+
+.home_main_titulares {
+
     font-size: 24px;
     text-align: center;
     color: var(--Grisoscuro);
 
 }
 
-.home_main_producto_precio{
+.main_section {
+    margin-inline: 10px;
+}
+
+
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    width: 30px;
+    padding: 15px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+
+}
+
+
+
+.home_main_producto_precio {
     font-size: 18px;
+
 }
 
-.home_main_producto_descuento{
+.home_main_producto_descuento {
     font-size: 16px;
+    color: var(--Verde);
 }
 
-.home_main_producto_descripcion{
+.home_main_producto_descripcion {
     font-size: 16px;
-    color: var(--Grisoscuro) ;
+    color: var(--Grisoscuro);
+    display: none;
 
 }
 
-.home_cuerposdetexto{
+.home_cuerposdetexto {
 
     font-size: 12px;
     text-align: center;
     color: var(--Grisoscuro);
 
+
 }
 
-.home_footer i{
-      width: 100%;
+.home_footer_titulares {
+
+    font-size: 24px;
     text-align: center;
-
-}
-
-.home_footer_cuerpodetexto{
     color: var(--Grisoscuro);
+
+
 }
 
+.home_foote_descripcion {}
+
+footer article {
+
+    font-size: 20px;
+    text-align: center;
+    color: var(--Grisoscuro);
+    padding: 5px;
+
+
+}
+
+footer i {
+    padding: 25px;
+    bottom: 10px;
+}
+
+.camioncito {
+    text-align: center;
+    padding: 6px;
+    color: var(--Verde);
+    font-size: 20px;
+    padding: 10px;
+
+
+
+}
+
+
+
+
+
+
+.camioncito i {
+    border: 2px solid var(--Verde);
+    border-radius: 50%;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: right;
+
+
+}
+
+.main_section article img {
+    width: 100vw;
+
+}
+
+.home_banner {
+    width: 100vw;
+}
+
+
+
+@media(max-width:425px) {
+    .home_header p {
+        text-align: center;
+
+    }
+
+    .home_header ul li {
+        display: none;
+
+
+
+    }
+}
+
+    @media(min-width:426px) {
+
+        .main_section article {
+
+            width: 100vw;
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+        }
+
+        .burger-menu {
+
+            display: none;
+        }
+
+    }
