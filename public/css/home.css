@@ -1,10 +1,22 @@
 .home_header {
     background-color: var(--Amarillo);
+    
 
 
 }
 
-header div {}
+.home_logo {
+    width: 50%;
+   
+    
+    
+}
+
+
+
+.home_lupa{
+    display: inline;
+}
 
 
 
@@ -26,6 +38,8 @@ header div {}
 /* main*/
 .home_main {
     width: 90%;
+    
+
 }
 
 
@@ -46,14 +60,15 @@ header div {}
 
 main section article i {
     display: block;
-    font-size: 16px;
+    font-size: 16px; 
+    padding: 5px;
     width: 30px;
-    padding: 15px;
     height: 30px;
-    border: 1px solid #39b54a;
     background-color: #FFF;
+    border-radius: 50%;
     position: absolute;
     right: 20px;
+    top: -15px;
 
 }
 
@@ -72,7 +87,7 @@ main section article i {
 .home_main_producto_descripcion {
     font-size: 16px;
     color: var(--Grisoscuro);
-    display: none;
+    
 
 }
 
@@ -94,17 +109,17 @@ main section article i {
 
 }
 
-.home_foote_descripcion {}
 
-footer article {
+
+footer section {
 
     font-size: 20px;
     text-align: center;
     color: var(--Grisoscuro);
     padding: 5px;
-
-
 }
+
+
 
 footer i {
     padding: 25px;
@@ -122,15 +137,9 @@ footer i {
 
 }
 
-
-
-
-
-
 .camioncito i {
     border: 2px solid var(--Verde);
     border-radius: 50%;
-    padding-top: 4px;
     padding-right: 4px;
     text-align: right;
 
@@ -149,8 +158,10 @@ footer i {
 
 
 @media(max-width:425px) {
-    .home_header p {
+    .home_header nav  {
         text-align: center;
+        display: inline;
+        
 
     }
 
@@ -160,14 +171,20 @@ footer i {
 
 
     }
+    .home_main_producto_descripcion {
+            
+        display: none;
+    
+    }
 }
 
     @media(min-width:426px) {
 
-        .main_section article {
+        .main_section {
 
             width: 100vw;
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            
 
         }
 
@@ -175,5 +192,5 @@ footer i {
 
             display: none;
         }
-
+        
     }
