@@ -119,6 +119,10 @@ footer section {
     padding: 5px;
 }
 
+.comprar_cuotas {
+    text-align: center;
+}
+
 
 
 footer i {
@@ -127,22 +131,26 @@ footer i {
 }
 
 .camioncito {
-    text-align: center;
-    padding: 6px;
-    color: var(--Verde);
-    font-size: 20px;
-    padding: 10px;
+    
+    position:relative;
 
 
 
 }
 
 .camioncito i {
-    border: 2px solid var(--Verde);
+    display:block;
+    font-size:16px; 
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--Verde);
+    background-color: white;
     border-radius: 50%;
-    padding-right: 4px;
-    text-align: right;
-
+position: absolute;
+right: 20 px;
+top: -15px;
+color: var(--Verde);
 
 }
 
@@ -181,11 +189,20 @@ footer i {
     @media(min-width:426px) {
 
         .main_section {
-
+            display: flex ;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content:space-around;
             width: 100vw;
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
-            
-
+            }
+        .main_section article {
+            width: 45%;
+        }  
+        
+        .main_section article img {
+            width: 100%;
         }
 
         .burger-menu {
